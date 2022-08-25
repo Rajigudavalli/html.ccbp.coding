@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="bg-color">
+        <div class="top-card-container d-flex flex-row">
+            <div>
+                <h1 class="top-card-heading-container">K.L. Rahul</h1>
+                <p class="top-card-para-container">Kannur Lokesh Rahul (born 18 April 1992), commonly known
+                    as KL Rahul, is an Iandian international cricketer
+                    who plays....more</p>
+            </div>
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/klrahul-img1.png" class="top-card-image-container" />
+        </div>
+        <h1 class="ipl-heading">IPL Records</h1>
+        <div class="mid-card-container d-flex flex-row">
+
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/klrahul-img2.png" class="mid-card-image-container" />
+            <div>
+                <h1 class="mid-card-heading-container">KXIP vs RCB</h1>
+                <p class="mid-card-para-container">He scored an unbeaten 132 off just 69 balls against Royal
+                    Challengers Bangalore...more</p>
+            </div>
+
+
+        </div>
+        <h1 class="vid-heading">Videos</h1>
+        <div class="d-flex flex-row">
+            <div class="s1-card-container d-flex flex-column">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/klrahul-img3.png" class="s1-image-container" />
+
+                <p class="s1-para-container">KL Rahul hits 337 for Karnataka</p>
+
+
+            </div>
+            <div>
+                <div class="s2-card-container d-flex flex-column">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/klrahul-img4.png" class="s1-image-container" />
+                    <p class="s2-para-container">Incredible innings by KL Rahul</p>
+                </div>
+                <div>
+                    <div class="s1-card-container d-flex flex-column">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/klrahul-img5.png" class="s1-image-container" />
+
+                        <p class="s1-para-container">single-handed win by KL Rahul</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="button btn btn-primary">view more</button>
+    </div>
+</body>
+
+</html>
+
+-------------------------css-----------
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-color {
+    background-color: #d5f5f4;
+    background-size: cover;
+    height: 100vh;
+}
+
+.top-card-container {
+    background-color: #fb4e71;
+    padding: 10px;
+
+}
+
+.top-card-heading-container {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "roboto";
+    text-align: left;
+}
+
+.top-card-image-container {
+    height: 110px;
+    width: 90px;
+}
+
+.top-card-para-container {
+    color: #ffffff;
+    font-size: 13px;
+    font-family: "roboto";
+}
+
+.ipl-heading {
+    color: #323f4b;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.mid-card-container {
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 10px;
+
+}
+
+.mid-card-heading-container {
+    color: #323f4b;
+    font-size: 18px;
+    padding: 5px;
+
+}
+
+.mid-card-para-container {
+    color: #323f4b;
+    font-size: 13px;
+    padding: 3px;
+}
+
+.mid-card-image-container {}
+
+.vid-heading {
+    color: #323f4b;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.s1-card-container {
+    padding: 3px;
+    margin-right: 3px;
+}
+
+.s1-image-container {
+    height: 60px;
+    width: 80px;
+}
+
+.s1-para-container {
+    color: #323f4b;
+    margin-right: 3px;
+    font-size: 11px;
+}
+
+.s2-card-container {
+    padding: 3px;
+    margin: 3px;
+}
+
+.s2-para-container {
+    color: #323f4b;
+    margin-left: 3px;
+    font-size: 11px;
+}
+
+.button {
+    background-color: #e6f6ff;
+    border-radius: 3px;
+    margin-left: 140px;
+    width: 100px;
+    margin-right: 150px;
+}
