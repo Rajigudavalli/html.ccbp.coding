@@ -1,0 +1,54 @@
+Introduction to CSS | Part 1 | Cheat Sheet
+HTML Elements
+1. Container Element
+The HTML div element defines a container.
+
+<div>           ------- syntax
+  <h1>Tourism</h1>
+  <p>Plan your trip wherever you want to go</p>
+  <button>Get Started</button>
+</div>
+
+ 
+HTML
+CSS Properties
+
+2. Syntax
+
+  selector {
+  property1: value1;
+  property2: value2;
+}
+
+3. Text Align
+The CSS text-align property specifies the horizontal alignment of the text in an HTML element.
+
+   .h-center {           -------- syntax
+  text-align: center;
+}
+
+CSS
+Value	Description
+center Aligns the text to the center
+left	Aligns the text to the left
+right	Aligns the text to the right
+
+
+----- example program -----
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <div class="h-center">
+      <h1>Tourism</h1>
+      <p>Plan your trip wherever you want to go</p>
+      <button>Get Started</button>
+    </div>
+  </body>
+</html>
+
+output:
+                      Tourism
+      Plan your trip wherever you want to go
+
+                   Get Started
