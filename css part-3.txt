@@ -1,0 +1,136 @@
+Introduction to CSS | Part 3 | Cheat Sheet
+
+1. Font Family:
+The CSS font-family property specifies the font for an element.
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+.main-heading {
+  font-family: "Roboto";                 ------- syntax ------
+}
+.paragraph {
+  font-family: "Roboto";
+}
+ 
+CSS
+You can use one of the below values of the font-family property,
+
+Value:
+font-families-and-appearance
+
+Note:
+To use font families, you need to import their style sheets into your CSS file.
+There shouldn't be any spelling mistakes in the values of the font-family property.
+There must be quotations around the value of the font-family property.
+
+2. Font Size:
+The CSS font-size property specifies the size of the font.
+
+CSS
+
+.main-heading {           ----- syntax -----
+  font-size: 36px;
+}
+.paragraph {
+  font-size: 28px;
+}
+
+Note:
+You must add px after the number in the value of the font-size property.
+There shouldn't be any space between the number and px.
+There shouldn't be any quotations around the value of the font-size property.
+
+3. Font Style:
+The CSS font-style property specifies the font style for a text.
+
+.main-heading {                  ------ syntax -----
+  font-style: italic;
+}
+.paragraph {
+  font-style: normal;
+}
+
+You can use one of the below values of the font-style property,
+
+Value
+normal
+italic
+oblique
+CSS
+
+Note:
+
+There shouldn't be any spelling mistakes in the values of the font-style property.
+There shouldn't be any quotations around the value of the font-style property.
+
+4. Font Weight:
+The CSS font-weight property specifies how thick or thin characters in text should be displayed.
+  
+.main-heading {                 ------ syntax ------
+  font-weight: bold;
+}
+.paragraph {
+  font-weight: 200;
+}
+
+CSS
+You can use one of the below values of the font-weight property,
+
+Value:
+
+normal
+bold
+bolder
+lighter
+100
+200
+300
+400
+500
+600
+700
+800
+900
+Note:
+
+There shouldn't be any spelling mistakes in the values of the font-weight property.
+There shouldn't be any quotations around the value of the font-weight property.
+The numerical values given to the font-weight property must be in the range from 100 to 900 and should be the multiples of 100.
+ 
+5. Text Decoration:
+The CSS text-decoration property specifies the decoration added to the text.
+
+.main-heading {                           -----------syntax-----------
+  text-decoration: underline;
+}
+.paragraph {
+  text-decoration: overline;
+}
+
+CSS:
+You can use one of the below values of the text-decoration property,
+
+Value	Description:
+
+underline	      Underline the text
+line-through	Strike through the text
+overline	      Overline the text
+
+Note:
+
+There shouldn't be any spelling mistakes in the values of the text-decoration property.
+There shouldn't be any quotations around the value of the text-decoration property.
+Ensure that text-decoration and line-through are hyphenated.
+
+---------exmaple problem ---------
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <h1 class="main-heading">Tourism</h1>
+    <p class="paragraph">Plan your trip wherever you want to go</p>
+  </body>
+</html>
+
+output:
+Tourism
+Plan your trip wherever you want to go
