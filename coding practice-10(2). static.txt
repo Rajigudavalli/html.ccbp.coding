@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="section-podcasts" class="bg-image-container">
+        <h1 class="first-heading">Podcasts</h1>
+    </div>
+    <div class="first-two-images-card d-flex flex-row">
+        <div onclick="dis
+            <h1 class=" left-heading">Puri Jagannadh</h1>
+            <p class="left-para">24 Episodes</p>
+        </div>
+        <div onclick="display('section-tedx')">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="right-image-container" />
+            <h1 class="right-heading">Tedx talks</h1>
+            <p class="right-para">12 Episodes</p>
+        </div>
+    </div>
+    <div class="first-two-images-card d-flex flex-row">
+        <div onclick="display('section-sadhguru')">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" class="left-image-container" />
+            <h1 class="left-heading">Sadhguru</h1>
+            <p class="left-para">49 Episodes</p>
+        </div>
+        <div onclick="display('section-onpurpose')">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" class="right-image-container" />
+            <h1 class="right-heading">On purpose</h1>
+            <p class="right-para">49 Episodes</p>
+        </div>
+    </div>
+    <div id="section-puri" class="bg-color">
+        <div>
+            <img src="" class="" />
+        </div>
+    </div>
+    <div id="section-tedx"></div>
+    <div id="section-sadhguru"></div>
+    <div id="section-onpurpose"></div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
+
+--------------------css--------------
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+
+.bg-color {
+    background-color: #151765;
+    background-size: cover;
+    width: 100vw;
+    height: 150px;
+}
+
+.bg-image-container {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/podcasts-bg.png');
+    background-size: cover;
+    height: 40vh;
+}
+
+.first-heading {
+    color: #ffffff;
+    font-family: "roboto";
+    font-size: 25px;
+    text-align: left;
+    padding: 10px;
+}
+
+.first-two-images-card {
+    margin-left: 50px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.second-two-images-card {
+    margin-left: 50px;
+    text-align: center;
+    padding: 5px;
+}
+
+.puri-container {
+    text-align: center;
+}
+
+.left-image-container {
+    border-radius: 5px;
+    height: 100px;
+    width: 130px;
+    padding: 5px;
+
+}
+
+.left-heading {
+    color: #151765;
+    font-family: "roboto";
+    font-size: 15px;
+    font-weight: bolder;
+    margin-top: 5px;
+
+}
+
+.left-para {
+    color: #5a7184;
+    font-family: "roboto";
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.right-image-container {
+    border-radius: 5px;
+    height: 100px;
+    width: 130px;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.right-heading {
+    color: #151765;
+    font-family: "roboto";
+    font-size: 15px;
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.right-para {
+    color: #5a7184;
+    font-family: "roboto";
+    font-size: 13px;
+    font-weight: lighter;
+    margin-left: 10px;
+}
