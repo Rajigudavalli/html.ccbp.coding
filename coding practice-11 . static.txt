@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="section-music-home-page">
+
+        <div class="bg-image-container d-flex flex-column">
+
+            <h1 class="top-heading">Sleep Music</h1>
+            <p class="top-para">soothing bedtime music to help you fall into a deep and natural
+                sleep</p>
+            <div class="middle-card d-flex flex-column justify-content-center">
+                <h1 class="card1-heading">Night Island</h1>
+                <p class="card1-para">Non-stop 8-hour mixes of our most popular sleep audio</p>
+                <button class="card1-button" onclick="display('section-music-details-page')">Get Started</button>
+            </div>
+        </div>
+    </div>
+    <div class="bg2-color" id="section-music-details-page">
+        <div>
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/clouds-img.png" class="top2-image" />
+        </div>
+
+        <h1 class="night-heading">Night island</h1>
+        <p class="ease-para">Ease the mind into a restfull night's sleep with these deep, amblent tones.
+        </p>
+        <p class="min-para">45 MIN SLEEP MUSIC</p>
+        <h1 class="related-heading">Related</h1>
+        <div class="card3-container d-flex flex-row">
+            <div class="d-flex flex-column">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-clouds-img.png" class="moon-image" />
+                <h1 class="moon-heading">Moom Clouds</h1>
+                <p class="min55-para">55 MIN SLEEP MUSIC</p>
+            </div>
+            <div class="image-moon-card">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sweet-sleep-img.png" class="moon-image" />
+                <h1 class="moon-heading">Moom Clouds</h1>
+                <p class="min55-para">55 MIN SLEEP MUSIC</p>
+            </div>
+        </div>
+        <button class="card2-button" onclick="display('section-music-home-page')">Back</button>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
+
+------------------------css---------------------------
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-image-container {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-stars-bg.png');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.top-heading {
+    color: #ffffff;
+    font-size: 25px;
+    font-family: "breeserif";
+    text-align: center;
+    padding-top: 70px;
+}
+
+.top-para {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: none;
+    font-family: "breeserif";
+    text-align: center;
+}
+
+.middle-card {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-bg.png');
+    height: 35vh;
+    width: 65vw;
+    text-align: center;
+    margin: 7px;
+    border-radius: 8px;
+
+}
+
+.card1-heading {
+    color: #ffe7bf;
+    font-size: 25px;
+    font-family: "breeserif";
+    text-align: center;
+    padding-top: 40px;
+    font-weight: bolder;
+}
+
+.card1-para {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: "breeserif";
+    text-align: center;
+    padding-top: 30px;
+    margin: 10px;
+
+}
+
+.card1-button {
+    border-radius: 15px;
+    color: #ffffff;
+    background-color: #8e97fb;
+    border-width: 0px;
+
+}
+
+.bg2-color {
+    background-color: #03174c;
+    background-size: cover;
+    height: 120vh;
+}
+
+.top2-image {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 10px;
+    height: 40vh;
+    width: 100vw;
+
+
+}
+
+.night-heading {
+    color: #ffffff;
+    font-size: 25px;
+    font-family: "breeserif";
+    padding: 5px;
+    margin-top: 10px;
+    margin: 10px;
+}
+
+.ease-para {
+    color: #98a1bd;
+    font-size: 15px;
+    font-family: "breeserif";
+    margin: 13px;
+
+}
+
+.min-para {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "breeserif";
+    margin: 10px;
+    margin-top: 13px;
+}
+
+.related-heading {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "breeserif";
+    margin: 10px;
+    margin-top: 13px;
+}
+
+.card3-container {
+    margin: 10px;
+
+}
+
+.image-moon-card {
+    margin-left: 20px;
+}
+
+.moon-image {
+
+    height: 100px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.moon-heading {
+    color: #ffffff;
+    font-size: 13px;
+    font-family: "breeserif";
+    margin-top: 5px;
+
+
+}
+
+.min55-para {
+    color: #98a1bd;
+    font-size: 16px;
+    font-family: "breeserif";
+
+    margin-top: 10px;
+}
+
+.card2-button {
+    color: #ffffff;
+    background-color: #8e97fd;
+    border-radius: 13px;
+    text-align: center;
+    margin: 10px;
+    width: 90px;
+}
